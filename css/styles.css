@@ -175,9 +175,7 @@ h3{
 
 .body-section {
     padding-top: 5rem;
-    /* padding-left: 2rem; */
     height: fit-content;
-    height: 95vh;
 }
 
 #home{
@@ -352,24 +350,21 @@ h3{
     flex-direction: row-reverse;
 }
 
-@media only screen and (max-width: 1375px) {
-    #experience .experience-card {
-        flex-direction: column;
-    }
-    #experience img {
-        width: 100%;
-        height: 100%;
-    }
-}
-
 /* Media queries starts */
 @media only screen and (max-width: 1375px) {
     body {
         margin: 0;
     }
-    
+    .body-section {
+        padding-bottom: 5rem;
+    }
+
+    #home {
+        min-height: auto;
+    }
+
     #home .home-1 {
-        margin-top: 1em;
+        margin-top: 50px;
     }
 
     .body-container {
@@ -420,7 +415,13 @@ h3{
     #experience .experience-card {
         overflow-x: hidden;
         display: flex;
+        flex-direction: column;
         width: calc(100% - 2em);
+    }
+
+    #experience img {
+        width: 100%;
+        height: 100%;
     }
 
     .experience-card .text-content {
