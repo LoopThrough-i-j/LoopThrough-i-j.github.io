@@ -350,6 +350,10 @@ h3{
     flex-direction: row-reverse;
 }
 
+#projects {
+    min-height: 90vh;
+}
+
 /* Media queries starts */
 @media only screen and (max-width: 1375px) {
     body {
@@ -451,6 +455,10 @@ h3{
         margin: 0 5vw;
         width: 90vw;
         padding: 0;
+    }
+    #projects {
+        min-height: 90vh;
+        margin-bottom: 50px;
     }
 
     #experience .experience-card {
