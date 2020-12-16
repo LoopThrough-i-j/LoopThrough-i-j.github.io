@@ -442,7 +442,7 @@ h3{
 
 /* animation class */
 .animationContainer {
-    visibility: hidden;
+    /* visibility: hidden; */
     position: relative;
 }
 
