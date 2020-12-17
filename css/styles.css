@@ -255,6 +255,13 @@ h3{
 #point h2:hover {
     color: #5392f8;
 }
+#everypage h2:hover {
+    color: #FF0F7B;
+}
+#blogs h2:hover,
+#blogs a:hover {
+    color: #E81CFF;
+}
 #faceRecognition h2:hover {
     color: #A02AF4;
 }
