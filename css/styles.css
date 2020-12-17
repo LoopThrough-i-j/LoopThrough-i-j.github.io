@@ -48,7 +48,7 @@ h3{
 
 .sidebar-container {
     top: 0px;
-    width: 35%;
+    width: 30%;
     max-width: 450px;
     display: block;
     text-align: center;
@@ -79,14 +79,14 @@ h3{
 }
 
 .sidebar-image-container img {
-    width: 20rem;
+    width: 18rem;
     border-radius: 2rem;
     object-fit: contain;
     margin: 2rem;
 }
 
 .sidebar-image-container h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 0.5em 0;
 }
 
@@ -240,7 +240,7 @@ h3{
 #experience .experience-card {
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 20px;
     background-color: #1b1b1b;
     margin: 20px 0;
@@ -271,12 +271,12 @@ h3{
 
 .experience-card img {
     align-self: center;
-    width: 500px;
-    height: 270px;
+    width: 100%;
+    height: 100%;
 }
 
 .experience-card .text-content {
-    padding: 0 20px;
+    padding: 10px 0px;
 }
 
 .text-content a {
@@ -295,6 +295,7 @@ h3{
 .text-content ul {
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 0px;
 }
 
 .text-content li {
@@ -362,7 +363,7 @@ h3{
 }
 
 /* Media queries starts */
-@media only screen and (max-width: 1375px) {
+@media only screen and (max-width: 1200px) {
     body {
         margin: 0;
     }
