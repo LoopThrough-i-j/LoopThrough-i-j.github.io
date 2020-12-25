@@ -246,26 +246,26 @@ h3{
     margin: 20px 0;
 }
 
-#announce h2:hover {
+#announce h3:hover {
     color: #FF0F7B;
 }
-#maia h2:hover {
+#maia h3:hover {
     color: #274EF2;
 }
-#point h2:hover {
+#point h3:hover {
     color: #5392f8;
 }
-#everypage h2:hover {
+#everypage h3:hover {
     color: #FF0F7B;
 }
-#blogs h2:hover,
+#blogs h3:hover,
 #blogs a:hover {
     color: #E81CFF;
 }
-#faceRecognition h2:hover {
+#faceRecognition h3:hover {
     color: #A02AF4;
 }
-#amplofly4 h2:hover {
+#amplofly4 h3:hover {
     color: #FF8C00;
 }
 
@@ -392,6 +392,7 @@ h3{
     }
 
     .body-section h2,
+    #experience h3,
     #skills h3 {
         text-align: center;
     }
