@@ -12,15 +12,12 @@ If you need any help, ping me !
 ________________________________________________________________________________________
 Greetings !
 
-if (employer) {
-  yes, I'm always looking for great opportunities;
-}
-else if (want a website) {
-  ping me ! lets discuss how will I help you;
-}
-else{
-    enjoy the website.
-}
+if employer:
+    Yes, I'm always looking for great opportunities
+elif need_help:
+    Mail me directly or ping me on any social platform
+else:
+    Enjoy the website
 
 Cheers,
 Debayan Ganguly
@@ -56,7 +53,8 @@ or reproduced from the open source public code.
     <meta name="description" content="Software Engineer with 1+ year of experience, Exploring Opportunities round the World.">
     <link rel="shortcut icon" href="images/favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/main.js"></script>
@@ -100,22 +98,21 @@ or reproduced from the open source public code.
             </div>
         </div>
         <div class="main-body-container">
-            <section id="home" class="body-section animationContainer">
+            <section id="home" class="body-section ">
                 <h1 class = "home-1">Hi! </h1>
                 <h1 class = "home-2">I'm Debayan</h1>
                 <div class="inline-container">
                     <h3>Software Developer</h3>
                 </div>
                 <p>
-                    Hi, I am on a voyage of exploration, around the world looking for great opertunities. 
-                    I have high hopes and ambitions from the upcoming world, which excites me to work with all the awesome technologies. 
-                    I hope I can add value to the organizations I work for and eventually take part in making something useful and scalable for the future.
+                    Hi, I am on a voyage of exploration, around the world looking for great opportunities. <br>
+                    Writing Code and Telling Stories are the things I do the best. 
                 </p>
                 <a target="_blank" href="https://drive.google.com/file/d/1r8P4_FXvl7GIxOiAjbv2YQNaX-S6DlRJ/view?usp=sharing">Download CV</a>
             </section>
-            <section id="experience" class="body-section animationContainer">
+            <section id="experience" class="body-section ">
                 <h2>Experience</h2>
-                <div id="announce" class="experience-card animationContainer">
+                <div id="announce" class="experience-card ">
                     <img src="images/projects/Announce.png" alt="Announce">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer" href="https://announce.today/">
@@ -125,10 +122,12 @@ or reproduced from the open source public code.
                         <ul>
                             <li>Directed remote teams in India dedicated to​ <span class="bold">application design</span> ​ and​ <span class="bold">quality assurance testing</span></li>
                             <li>Contributed ideas and suggestions in team meetings and delivered updates on designs and enhancements.</li>
+                            <li>Designed Scrapers to scrape more than 50,000 daily contents, at scale.</li>
+                            <li>Achieving 5000 daily acive users</li>
                         </ul>
                     </div>
                 </div>
-                <div id="maia" class="experience-card animationContainer">
+                <div id="maia" class="experience-card ">
                     <img src="images/projects/maia.png" alt="MaiA">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer"  href="https://maia.rest/">
@@ -142,7 +141,7 @@ or reproduced from the open source public code.
                         </ul>
                     </div>
                 </div>
-                <div id="point" class="experience-card animationContainer">
+                <div id="point" class="experience-card ">
                     <img src="images/projects/Point.png" alt="Point">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer"  href="https://pointaddress.com/">
@@ -156,7 +155,7 @@ or reproduced from the open source public code.
                         </ul>
                     </div>
                 </div>
-                <div id="everypage" class="experience-card animationContainer">
+                <div id="everypage" class="experience-card ">
                     <img src="images/projects/everypage.png" alt="Everypage">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer"  href="https://es.everypage.site/">
@@ -170,7 +169,7 @@ or reproduced from the open source public code.
                         </ul>
                     </div>
                 </div>
-                <div id="blogs" class="experience-card animationContainer">
+                <div id="blogs" class="experience-card ">
                     <img src="images/projects/milkieway.png" alt="Everypage">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer"  href="https://tomilkieway.com/">
@@ -184,7 +183,7 @@ or reproduced from the open source public code.
                         </ul>
                     </div>
                 </div>
-                <div id="faceRecognition" class="experience-card animationContainer">
+                <div id="faceRecognition" class="experience-card ">
                     <img src="images/projects/faceRecognition.jpg" alt="Facial Recognition">
                     <div class="text-content">
                         <h3>Facial Recognition based Attendance</h3> 
@@ -195,7 +194,7 @@ or reproduced from the open source public code.
                         </ul>
                     </div>
                 </div>
-                <div id="amplofly4" class="experience-card animationContainer">
+                <div id="amplofly4" class="experience-card ">
                     <img src="images/projects/amplofly4.png" alt="Amplofly4">
                     <div class="text-content">
                         <a target="_blank" rel="noopener noreferrer"  href="https://www.amploglobal.com/amplofly-4-0.html">
@@ -211,36 +210,70 @@ or reproduced from the open source public code.
             </section>
             <section id="skills" class="body-section">
                 <h2>Skills</h2>
-                <h3 class="animationContainer">Languages</h3>
-                <ul class="animationContainer">
+                <h3 class="">Languages</h3>
+                <ul class="">
                     <li><img src="images/icons/python-seeklogo.com.svg" alt="Python Logo"> Python</li>
                     <li><img src="images/icons/javascript-js-seeklogo.com.svg" alt="Javascript Logo"> JavaScript</li>
                     <li><img src="images/icons/java.svg" alt="Java logo"> JAVA</li>
                 </ul>
-                <h3  class="animationContainer">Frameworks</h3>
-                <ul class="animationContainer">
+                <h3  class="">Frameworks</h3>
+                <ul class="">
                     <li><img src="images/icons/django.png" alt="Django Logo"> Django</li>
                     <li><img src="images/icons/flask-seeklogo.com.svg" alt="Flask Logo"> Flask</li>
                     <li><img src="images/icons/scrapy.png" alt="Scrapy Logo"> Scrapy</li>
                     <li><img src="images/icons/jekyll.ico" alt="Jekyll Logo"> Jekyll</li>
                     <li><img src="images/icons/hugo.png" alt="Hugo Logo"> Hugo</li>
                 </ul>
-                <h3  class="animationContainer">Tools</h3>
-                <ul class="animationContainer">
+                <h3  class="">Tools</h3>
+                <ul class="">
                     <li><img src="images/icons/google-cloud-seeklogo.com.svg" alt="Google Cloud Platform Logo"> Google Cloud Platform</li>
                     <li><img src="images/icons/git-seeklogo.com.svg" alt="Git Logo"> Git</li>
                     <li><img src="images/icons/docker.png" alt="Docker Logo"> Docker</li>
                 </ul>
-                <h3 class="animationContainer">Databases</h3>
-                <ul class="animationContainer">
+                <h3 class="">Databases</h3>
+                <ul class="">
                     <li><img src="images/icons/firebase-seeklogo.com.svg" alt="Firestore Logo"> Firestore</li>
                     <li><img src="images/icons/mysql-seeklogo.com.svg" alt="Mysql Logo"> MySql</li>
                     <li><img src="images/icons/postgresql-seeklogo.com.svg" alt="PostgresSql Logo"> PostgresSql</li>
                     <li><img src="images/icons/mongodb.ico" alt="MongoDB Logo"> MongoDB</li>
                 </ul>
             </section>
-            <section id="projects" class="body-section animationContainer">
+            <section id="projects" class="body-section">
                 <h2>Personal Projects</h2>
+                <p>Listed below are some projects I have had an opportunity to work on, either as a course project or just for fun.</p>
+                <ul>
+                    <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/zulip">Zulip</a> :
+                        <p>
+                            The most exciting open-source projects I have worked on soo far. 
+                            Check my contributions for <a target="_blank" href="https://github.com/zulip/zulip/pulls?q=author%3ALoopThrough-i-j">zulip/zulip</a> and
+                            <a target="_blank" href="https://github.com/zulip/python-zulip-api/pulls?q=author%3ALoopThrough-i-j">zulip/python-zulip-api</a>
+                        </p>
+                    </li>
+                    <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/awesome-erp">Awesome ERP</a> :
+                        <p>
+                            A full stact ERP application made with Flask as Backend, Angular with Node(for server side rendering) for Frontend. 
+                            Check the documentation and my contributions at <a target="_blank" href="https://github.com/awesome-erp/flask-be">awesome-erp/flask-be</a>
+                        </p>
+                    </li>
+                    <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/LoopThrough-i-j/AI-powered-FlappyBIrd">Flappy-Bird</a> : 
+                        <p>
+                            AI powered Flappy bird game where, there a neural network is trained to play Flappy bird on its
+                            own. It has separate interface for training and playing</li>
+                        </p>
+                    <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/LoopThrough-i-j/Web_Scraper_Django">Webscraper</a> : 
+                        <p>
+                            Web Scraper made with django and beautiful-soup to scrape <a href="https://kolkata.craigslist.org">https://kolkata.craigslist.org</a>.
+                        </p>
+                    </li>
+                    <li> ⇒ A Line follower Robot 
+                        <p> 
+                            Winning Prizes in different Contests, Designed Hardware and Code running in it.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+            <!-- <section id="achievements" class="body-section ">
+                <h2>Achievements</h2>
                 <p>Listed below are some projects I have had an opportunity to work on, either as a course project or just for fun.</p>
                 <ul>
                     <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/LoopThrough-i-j/AI-powered-FlappyBIrd">Flappy-Bird</a> - AI powered Flappy bird game where, there a neural network is trained to play Flappy bird on its
@@ -248,7 +281,7 @@ or reproduced from the open source public code.
                     <li> ⇒ <a target="_blank" rel="noopener noreferrer"  href="https://github.com/LoopThrough-i-j/Web_Scraper_Django">Webscraper</a> - Web Scraper made with django and beautiful-soup to scrape https://kolkata.craigslist.org.</li>
                     <li> ⇒ A Line follower Robot Winning Prizes in different Contests, Designed Hardware and Code running in it.</li>
                 </ul>
-            </section>
+            </section> -->
         </div>
     </div>
 </body>
